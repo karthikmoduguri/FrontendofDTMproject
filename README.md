@@ -1,70 +1,129 @@
-# Getting Started with Create React App
+# 📌 Smart Crop Advisor — Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the frontend application for the **Smart Crop Advisor** project — a crop recommendation system that integrates Explainable AI (XAI) and multilingual support. The frontend is built using **React.js**, designed for farmers and agricultural experts to easily interact with the model and get crop suggestions with clear explanations.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🌱 **Crop prediction** based on inputs like NPK, pH, rainfall, humidity, etc.
+- 💬 **Multilingual support** (English and local languages like Telugu/Kannada)
+- 💡 **Explanation of the predicted crop** using XAI (LIME)
+- 📱 **Responsive UI** for all device sizes
+- 🔁 **Smooth API integration** with Flask backend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies Used
 
-### `npm test`
+- React.js (Frontend framework)
+- Axios (for API calls)
+- Tailwind CSS (for styling)
+- React-i18next (for multilingual support)
+- FontAwesome / Heroicons (for UI icons)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📦 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clone the Repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/yourusername/react-dtm-project.git
+cd my-app
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. Install Dependencies
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3. Start the Development Server
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🗂️ Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+my-app/
+├── public/           # Static files
+├── src/
+│   ├── components/   # Reusable React components
+│   ├── App.js        # Main app component
+│   └── index.js      # Entry point
+├── package.json
+└── README.md
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🛠️ Scripts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- `npm start` — Runs the app in development mode
+- `npm test` — Launches the test runner# React DTM Project
 
-### Analyzing the Bundle Size
+This is a simple React application created to demonstrate basic React concepts and UI building. The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🚀 Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Interactive UI built with React components
+- Fast development with hot reloading
+- Easy to customize and extend
+- Modern JavaScript (ES6+) support
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📦 Getting Started
 
-### Deployment
+### 1. Clone the Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+git clone https://github.com/yourusername/react-dtm-project.git
+cd my-app
+```
 
-### `npm run build` fails to minify
+### 2. Install Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+
+```bash
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+
+---
+
+## 🗂️ Project Structure
+
+```
+my-app/
+├── public/           # Static files
+├── src/
+│   ├── components/   # Reusable React components
+│   ├── App.js        # Main app component
+│   └── index.js      # Entry point
+├── package.json
+└── README.md
+```
+
+---
+
+## 🛠️ Scripts
+
+- `npm start` — Runs the app in development mode
+
+---
